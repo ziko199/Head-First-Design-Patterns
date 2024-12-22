@@ -8,6 +8,8 @@ public class MiniDuckSimulator1 {
 		Duck mallard = new MallardDuck();
 		mallard.performQuack();
 		mallard.performFly();
+		mallard.display();
+		mallard.swim();
 
 		System.out.println("--> ModelDuck ------- ");
 		Duck model = new ModelDuck();

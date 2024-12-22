@@ -19,11 +19,11 @@ public class Main {
         studentList.add(student3);
         studentList.add(student4);
 
-        Sorter nameSorter = new NameSorter();
-        System.out.println("NameSorter: -> " + nameSorter.sort(studentList));
+        Sorter sorter = new NameSorter();
+        System.out.println("NameSorter: -> " + sorter.sort(studentList));
 
-        Sorter numberSorter = new NumberSorter();
-        System.out.println("NumberSorter: -> " + numberSorter.sort(studentList));
+        sorter = new NumberSorter();
+        System.out.println("NumberSorter: -> " + sorter.sort(studentList));
 
     }
 }
